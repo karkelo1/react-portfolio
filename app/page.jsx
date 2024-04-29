@@ -1,4 +1,4 @@
-import { BsFillMoonStarsFill } from 'react-icons/bs';
+
 import { AiFillLinkedin } from 'react-icons/ai'
 import Image from 'next/image';
 import dilan from '../public/dilan.png'
@@ -16,14 +16,12 @@ export default function Home() {
           <h1 className="text-sm sm:text-base font-mono font-bold pl-2 ms: text-xl5">DILAN GUTEKUNST</h1>
 
           <ul className="flex items-center">
-            <li className="text-base sm:text-xl">
-              <BsFillMoonStarsFill className="cursor-pointer  text-gray-700 hover:text-gray-500" />
-            </li>
+            
             <a href="https://www.linkedin.com/in/dilan-gutekunst/" target="_blank" rel="noopener noreferrer">
-              <AiFillLinkedin className="text-xl sm:text-2xl ml-2 cursor-pointer  text-gray-700 hover:text-gray-500" />
+              <AiFillLinkedin className="rounded-full  cursor-pointer text-green-500 bg-gray-100 hover:shadow-xl"size={30}/>
             </a>
             <li>
-              <a className="bg-gradient-to-r from-green-500 to-teal-500 text-white px-2 py-1 rounded-md ml-2 sm:px-4 sm:py-2 sm:text-sm  hover:text-green-200 " href="https://www.canva.com/design/DAF-xSdUd_A/aSBxrc6BteP5IGa2YSvv3g/edit?utm_content=DAF-xSdUd_A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" rel="noopener noreferrer">Resume</a>
+              <a className="bg-gradient-to-r from-green-500 to-teal-500 text-white px-2 py-1 rounded-md ml-2 sm:px-4 sm:py-2 sm:text-sm  bg-gray-100 hover:shadow-xl " href="https://www.canva.com/design/DAF-xSdUd_A/aSBxrc6BteP5IGa2YSvv3g/edit?utm_content=DAF-xSdUd_A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" rel="noopener noreferrer">Resume</a>
 
             </li>
           </ul>
@@ -38,7 +36,7 @@ export default function Home() {
         </div>
 
         <section >
-          <div className='p-2 text-sm-auto text-center '>
+          <div className='p-3 text-sm-auto text-center '>
             <h3 className="text-m text-center font-semibold font-mono  py-2 md:text-3xl">Projects</h3>
             <p className="text-md py-2 leading-8 text-gray-800">Creating websites or web applications using programming languages like HTML, CSS, and JavaScript, along with frameworks like <span className="text-teal-500">React </span>and <span className="text-teal-500">Tailwind.</span></p>
 
