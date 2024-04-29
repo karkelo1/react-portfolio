@@ -38,7 +38,7 @@ export default function Home() {
         <section >
           <div className='p-3 text-sm-auto text-center '>
             <h3 className="text-m text-center font-semibold font-mono  py-2 md:text-3xl">Projects</h3>
-            <p className="text-md py-2 leading-8 text-gray-800">Creating websites or web applications using programming languages like HTML, CSS, and JavaScript, along with frameworks like <span className="text-teal-500">React </span>and <span className="text-teal-500">Tailwind.</span></p>
+            <p className="text-md py-2 leading-8 text-gray-800">Creating websites or web applications using programming languages like HTML, CSS, and JavaScript, along with frameworks like React, <span className="text-teal-500">Next.js </span>and <span className="text-teal-500">Tailwind.</span></p>
 
             <div className=' flex flex-wrap gap-3 auto-cols-auto'>
               <div className="text-center  bg-gray-100 hover:shadow-xl p-10 rounded-xl my-4 flex-1">
