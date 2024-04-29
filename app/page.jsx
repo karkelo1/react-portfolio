@@ -18,7 +18,7 @@ export default function Home() {
           <ul className="flex items-center">
             
             <a href="https://www.linkedin.com/in/dilan-gutekunst/" target="_blank" rel="noopener noreferrer">
-              <AiFillLinkedin className="rounded-full  cursor-pointer text-green-500 bg-gray-100 hover:shadow-xl"size={30}/>
+              <AiFillLinkedin className="rounded-full  cursor-pointer text-green-500 bg-gray-100 hover:shadow-xl" size={29}/>
             </a>
             <li>
               <a className="bg-gradient-to-r from-green-500 to-teal-500 text-white px-2 py-1 rounded-md ml-2 sm:px-4 sm:py-2 sm:text-sm  bg-gray-100 hover:shadow-xl " href="https://www.canva.com/design/DAF-xSdUd_A/aSBxrc6BteP5IGa2YSvv3g/edit?utm_content=DAF-xSdUd_A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" rel="noopener noreferrer">Resume</a>
